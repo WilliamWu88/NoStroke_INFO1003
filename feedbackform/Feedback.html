@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Form -No Stroke.com</title>
+  <!-- Open Source Stylesheet -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/navigation.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="feedbackform.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="../font/font.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+	<!-- Open Source JavaScript -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <!-- JavaScript -->
+  <script src="../JavaScript/backgroundcolor.js"></script>
+</head>
+<body>
+  <!-- Navigation & headingImage -->
+	<div id="Heading" id="Top">
+		<!--Navigation-->
+		<div class="nav-container">
+		<nav class="navbar navbar-fixed-top" style="margin-bottom: 0px;">
+		<!--Navigation LOGO-->
+			<div class="navbar-header">
+	    	<a class="navbar-brand">No. Stroke</a>
+	  	</div>
+
+	  	<div id="navbar" class="navbar-collapse collapse">
+				<!--Left Navigation-->
+	    	<ul class="nav navbar-nav">
+	      	<!--Home-->
+	      	<li class="active"><a href="../index.html">Home</a></li>
+	      	<!--About Stroke-->
+	      	<li class=" dropdown">
+	      		<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Stroke<span class="caret"></span></a>
+	          	<ul class="dropdown-menu">
+								<li><a href="../aboutstroke/symptoms.html">Symptoms</a></li>
+	            	<li><a href="../aboutstroke/types.html">Types</a></li>
+	          	</ul>
+	      	</li>
+	      	<!--Treatment-->
+	      	<li class=" dropdown">
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Treatment<span class="caret"></span></a>
+	        		<ul class="dropdown-menu">
+	          		<li><a href="../treatment/basictreatment.html">Basic Treatment</a></li>
+	          		<li><a href="../treatment/IM.html">IM</a></li>
+	        		</ul>
+	      	</li>
+	      	<!--Prevent Stroke-->
+	      	<li class=" dropdown">
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prevent Stroke<span class="caret"></span></a>
+	        		<ul class="dropdown-menu">
+	          		<li><a href="../preventstroke/forpatients.html">For patients</a></li>
+	          		<li><a href="../preventstroke/forhighrisk.html">For high risk</a></li>
+	          		<li><a href="../preventstroke/forpublic.html">For public</a></li>
+	        		</ul>
+	      	</li>
+	      	<!--About us-->
+	      	<li class=" dropdown">
+						<a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
+	        		<ul class="dropdown-menu">
+            		<li><a href="../aboutus/aboutus.html#Contact us">Contact us</a></li>
+                <li><a href="../aboutus/resources.html">Resources</a></li>
+            		<li><a href="../feedbackform/Feedback.html">Feedback form</a></li>
+	          		<li><a href="../helpdesk/helpdesk.html">Helpdesk&FAQ</a></li>
+          		</ul>
+        	</li>
+	    	</ul>
+				<!--Right Navigation-->
+	    	<ul class="nav navbar-nav pull-right">
+					<!--Login-->
+	      	<li class=" dropdown">
+						<a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">myStroke<span class="caret"></span></a>
+	        		<ul class="dropdown-menu">
+	          		<li><a href="../Register/Login.html">Login</a></li>
+	          		<li><a href="../Register/Register.html">Register</a></li>
+	        		</ul>
+        	</li>
+	      	<!--Take the Stroke Test-->
+	      	<li id="last"><a href="../myStroke/stroketest.html">TAKE THE STROKE TEST</a></li>
+	    	</ul>
+	  	</div>
+		</nav>
+		</div>
+
+		<!--Heading Image-->
+		<div class="headingImageContainer">
+  		<div class="headingImage">
+				<img id="headImage" src="img/HeadPicture.jpg">
+			</div>
+		</div>
+	</div>
+
+  <br><br><br>
+  <form id="feedback" action="submit.html">
+    <fieldset>
+      <legend>1.How do you like this website?</legend>
+      Please rate 1-5(5 is the highest)
+      <select name="question1">
+        <option>5</option>
+        <option>4</option>
+        <option>3</option>
+        <option>2</option>
+        <option>1</option>
+      </select>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>2.Which section do you like in this website?</legend>
+      <ul>
+        <li class="form">Homepage  <input type="checkbox" name="checkbox1"></li>
+        <li class="form">About Stroke  <input type="checkbox" name="checkbox2"></li>
+        <li class="form">Treatment  <input type="checkbox" name="checkbox3"></li>
+        <li class="form">Prevent Stroke  <input type="checkbox" name="checkbox4"></li>
+        <li class="form">myStroke  <input type="checkbox" name="checkbox5"></li>
+      </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>3.What of the following is the strength of our website?</legend>
+      <ul>
+        <li class="form">Design  <input type="checkbox" name="checkbox1"></li>
+        <li class="form">Article  <input type="checkbox" name="checkbox2"></li>
+        <li class="form">myStroke  <input type="checkbox" name="checkbox3"></li>
+        <li class="form">Stroke Test  <input type="checkbox" name="checkbox4"></li>
+      </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>4.What of the following is the weakness of our website?</legend>
+      <ul>
+        <li class="form">Design  <input type="checkbox" name="checkbox1"></li>
+        <li class="form">Article  <input type="checkbox" name="checkbox2"></li>
+        <li class="form">myStroke  <input type="checkbox" name="checkbox3"></li>
+        <li class="form">Stroke Test  <input type="checkbox" name="checkbox4"></li>
+      </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>5.Do you think our news is latest?</legend>
+      <select name="question1">
+        <option>Yes</option>
+        <option>No</option>
+        <option>No idea</option>
+      </select>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>6.Do you think our suggestions are useful or not? How often will you use them?</legend>
+      <ul>
+        <li class="form">Yes, I will take these suggestions and they are useful.  <input type="checkbox" name="checkbox1"></li>
+        <li class="form">Yes, but these articles are not helpful to me.  <input type="checkbox" name="checkbox2"></li>
+        <li class="form">No, I think they are not helpful to me and others.  <input type="checkbox" name="checkbox1"></li>
+      </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>7.Is FAQ useful? Does FAQ answser your questions?</legend>
+      <ul>
+        <li class="form">Yes, I get my problem solved.  <input type="checkbox" name="checkbox1"></li>
+        <li class="form">No, I still have problems.  <input type="checkbox" name="checkbox1"></li>
+      </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>8.Do you think this website is attractive or not?Please Specify.</legend>
+      <input type="text" class="text" name="text1" placeholder="e.g. Videos, pictures, articles">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>9.Do you have any other suggestions?</legend>
+      <input type="text" class="text" name="text3" placeholder="e.g. Articles are not useful">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Your information</legend>
+      Your email:<input type="email" name="email" required="">
+      <br>
+      Preffered name:<input type="name" name="prefferedname">
+      <br>
+      <p></p>
+      <button type="submit" form="feedback" name="submit">Submit Feedback</button>
+      <button type="reset" name="reset">Reset Answer</button>
+    </fieldset>
+  </form>
+  <p></p>
+  <br>
+
+  <footer>
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span8">
+          <!--foot left-->
+          <a href="../aboutus/aboutus.html">About us</a>
+          <a href="../aboutus/aboutus.html#Contact us">Contact us</a>
+          <a href="">Feedback Form</a>
+          <a href="../helpdesk/helpdesk.html">Helpdesk/FAQ</a>
+          <a href="../privacypolicy/privacypolicy.html">Privacy Policy</a>
+          <a href="../sitemap/sitemap.html">Site map</a>
+          <!--foot right-->
+          <i id="last-text">University of Sydney, SIT</i>
+          <button id="white" style="float:right">white</button>
+          <button id="yellow" style="float:right">yellow</button>
+          <button id="blue" style="float:right">blue</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

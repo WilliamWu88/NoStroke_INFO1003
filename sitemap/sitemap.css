@@ -1,0 +1,17 @@
+#sitemap-head{
+  text-align: center;
+}
+#sitemap{
+  margin-left: 5px;
+}
+.subpage{
+  margin: 40px;
+  float: left;
+}
+li.smallpage{
+  text-indent: 18px;
+}
+li.subpage{
+  text-indent: 5px;
+  font-size: 16px;
+}
